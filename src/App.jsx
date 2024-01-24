@@ -1,5 +1,10 @@
+import { VideoGallery } from "./components/VideoGallery";
 function App() {
-  return <></>;
+  return (
+    <>
+      <VideoGallery></VideoGallery>
+    </>
+  );
 }
 
 export default App;

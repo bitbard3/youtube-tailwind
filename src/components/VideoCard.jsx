@@ -1,6 +1,6 @@
 export const VideoCard = ({ image, title, author, views, time }) => {
   return (
-    <div className="">
+    <div className="p-3">
       <div className="img-container max-w-fit">
         <img src={image} alt="" className="rounded-xl" />
       </div>
@@ -14,7 +14,7 @@ export const VideoCard = ({ image, title, author, views, time }) => {
           <p className="font-roboto font-medium ">{title}</p>
           <p className="text-sm text-gray-500">{author}</p>
           <div className="flex">
-            <p className="text-sm text-gray-500">{views}</p>
+            <p className="text-sm text-gray-500">{views} views</p>
             <p className="text-sm text-gray-500 pl-2">{time}</p>
           </div>
         </div>
