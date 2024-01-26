@@ -27,7 +27,7 @@ export const Navbar = () => {
           </div>
         </div>
         <Searchbox></Searchbox>
-        <div className="mt-3">
+        <div className="mt-5">
           <AccountSection></AccountSection>
         </div>
       </div>

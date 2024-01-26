@@ -32,9 +32,7 @@ export const AccountSection = () => {
             />
           </svg>
           <div className="pl-1.5 pr-0.5 -mt-0.5">
-            <span className="font-roboto text-sm font-medium text-blue-600">
-              Sign in
-            </span>
+            <span className=" text-sm font-medium text-blue-600">Sign in</span>
           </div>
         </div>
       </button>

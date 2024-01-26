@@ -11,7 +11,7 @@ export const VideoCard = ({ image, title, author, views, time }) => {
           alt=""
         />
         <div className="flex flex-col pl-3">
-          <p className="font-roboto font-medium ">{title}</p>
+          <p className=" font-medium ">{title}</p>
           <p className="text-sm text-gray-500">{author}</p>
           <div className="flex">
             <p className="text-sm text-gray-500">{views} views</p>
