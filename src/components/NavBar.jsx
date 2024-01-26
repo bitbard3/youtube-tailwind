@@ -1,3 +1,4 @@
+import { AccountSection } from "./AccountSection";
 import { BrandIcon } from "./BrandIcon";
 import { Searchbox } from "./SearchBox";
 export const Navbar = () => {
@@ -26,6 +27,9 @@ export const Navbar = () => {
           </div>
         </div>
         <Searchbox></Searchbox>
+        <div className="mt-3">
+          <AccountSection></AccountSection>
+        </div>
       </div>
     </div>
   );
