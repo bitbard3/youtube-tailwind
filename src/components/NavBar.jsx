@@ -1,4 +1,5 @@
 import { BrandIcon } from "./BrandIcon";
+import { Searchbox } from "./SearchBox";
 export const Navbar = () => {
   return (
     <div className="">
@@ -24,6 +25,7 @@ export const Navbar = () => {
             <BrandIcon></BrandIcon>
           </div>
         </div>
+        <Searchbox></Searchbox>
       </div>
     </div>
   );
