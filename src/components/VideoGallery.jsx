@@ -9,22 +9,22 @@ import img8 from "../assets/thumb8.webp";
 import { VideoCard } from "./VideoCard";
 const data = [
   {
-    title: "How to build components",
-    author: "Fireship",
+    title: "My Dad bough Vought",
+    author: "Vought Inc.",
     img: img1,
     views: "100k",
     time: "10 days ago",
   },
   {
-    title: "How to learn react in 30 days",
-    author: "Vought Inc",
+    title: "Goosebumps",
+    author: "Travis Scott",
     img: img2,
     views: "1000",
     time: "1 day ago",
   },
   {
-    title: "How to build components",
-    author: "Fireship",
+    title: "Can you be? (unreleased)",
+    author: "dxmv sfx",
     img: img3,
     views: "100k",
     time: "10 days ago",
@@ -44,8 +44,8 @@ const data = [
     time: "5 days ago",
   },
   {
-    title: "New song unreleased",
-    author: "moonlight",
+    title: "Till Further Notice",
+    author: "Travis Scott",
     img: img6,
     views: "180k",
     time: "1 week ago",

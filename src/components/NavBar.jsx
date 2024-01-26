@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="">
       <div className="flex justify-between mx-5">
         <div className="  pt-5 flex content-center">
-          <div className="mr-4">
+          <div className="mr-7">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
