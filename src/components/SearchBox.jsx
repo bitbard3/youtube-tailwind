@@ -1,6 +1,6 @@
 export const Searchbox = () => {
   return (
-    <div className="mt-3 flex">
+    <div className="mt-3 sm:flex hidden">
       <div className="hidden h-10 sm:flex sm:w-60 md:w-72 lg:w-96   border border-stone-400 rounded-3xl">
         <input
           type="text"
