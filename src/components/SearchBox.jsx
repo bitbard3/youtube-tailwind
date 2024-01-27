@@ -1,7 +1,7 @@
 export const Searchbox = () => {
   return (
     <div className="mt-3 flex">
-      <div className="w-96 h-10 flex  border border-stone-400 rounded-3xl">
+      <div className="hidden h-10 sm:flex sm:w-60 md:w-72 lg:w-96   border border-stone-400 rounded-3xl">
         <input
           type="text"
           placeholder="Search"
