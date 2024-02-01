@@ -69,8 +69,8 @@ export const VideoGallery = () => {
   return (
     <div className="">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  grid-cols-1">
-        {data.map((v) => (
-          <div className="">
+        {data.map((v, index) => (
+          <div className="" key={index}>
             <VideoCard
               title={v.title}
               author={v.author}
